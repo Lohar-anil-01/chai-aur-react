@@ -5,10 +5,18 @@ function App() {
 
   const addValue = () => {
     setCounter((counter) => Math.min(20, counter + 1));
+    setCounter((counter) => Math.min(20, counter + 1));
+    setCounter((counter) => Math.min(20, counter + 1));
+    setCounter((counter) => Math.min(20, counter + 1));
+    setCounter((counter) => Math.min(20, counter + 1));
     console.log(counter);
   };
 
   const decreaseValue = () => {
+    setCounter((counter) => Math.max(0, counter - 1));
+    setCounter((counter) => Math.max(0, counter - 1));
+    setCounter((counter) => Math.max(0, counter - 1));
+    setCounter((counter) => Math.max(0, counter - 1));
     setCounter((counter) => Math.max(0, counter - 1));
     console.log(counter);
   };
